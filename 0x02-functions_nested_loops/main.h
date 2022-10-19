@@ -13,6 +13,10 @@ int add(int, int);
 void print_to_98(int n);
 int _putchar(char c);
 void print_alphabet_x10(void);
+int_isalpha(int c);
+
 #endif
+
+
 
 	
