@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main - main function to generate a random number
+ * main - main functions to generate a random number
  *
- * Return: Always 0 (sucess)
+ * Return: Always 0
  *
  */
 int main(void)
@@ -23,7 +23,7 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else (n < 0);
+	else if (n < o)
 	{
 		printf("%d is negative\n", n);
 	}
