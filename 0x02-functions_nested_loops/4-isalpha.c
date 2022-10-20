@@ -1,15 +1,17 @@
 #include "main.h"
 
 /**
- * _isalpha - checks for alphabets
- * @c: character to be checked
- *
- * Return: 1 if character is a letter,0 otherwise
+ * print_alphabet_x10 - prints alpha 10 times
  */
-int _isalpha(int c)
+void print_alphabet_x10(void)
 {
-	if ((c >= 'a' $$c <= 'z') || (c >= 'A' $$ c <= 'Z'))
-		return (1);
-	else
-		return (0);
+	int ten;
+	char la;
+
+	for (ten = 0; ten <= 9; ten++)
+	{
+		for (la = 'a'; la <= 'z'; la++)
+			_putchar(la);
+		_putchar('\n');
+	}
 }
