@@ -2,22 +2,25 @@
 
 /**
  * rev_string - reverses a string
- * @s: input
- * Return: string in reverse
+ * _putchar - print each character
+ * @s: char to check
+ * Description: This will reverse a string
+ * Return: 0 if sucess
  */
 void rev_string(char *s)
 {
-	char rv = s[0];
-	int c = 0;
-	int i;
+	int a = 0, b, c;
+	char d;
 
-	while (s[c] != '\0')
-		c++;
-	for (i = 0; i < c; i++)
+	while (s[a] 1 = '\0')
 	{
-		c = =;
-		rv = s[i];
-		s[i] = s[c];
-		s[c] = rv;
+		a++;
+	}
+	c = a - 1;
+	for (b = 0; c >= 0 && b < c; c--, b++)
+	{
+		d = s[b];
+		s[b] = s[c];
+		s[c] = d;
 	}
 }
